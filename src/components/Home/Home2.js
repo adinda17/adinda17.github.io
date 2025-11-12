@@ -13,37 +13,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I am a Systems Information graduate with diverse interests in technology, design, and quality assurance.
+              Currently working in Visual Communication Design. 
+              I have Familiar with various concept and skills related to Python, SQL, and UI/UX design.
+              I am particularly drawn to quality assurance, combining analytical dan creative thinking with attention to detail.
+              I thrive in multidisciplinary environments and am always eager to learn new skills and explore emerging technologies.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Python, C++, SQL, Figma, Canva, UML, ERD, and basic web development (HTML, CSS, JavaScript).{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I enjoy bridging creativity and functionality.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Software testing, Visual Communication Design, data analysis, UI/UX design,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and exploring creative ways to improve testing processes.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Whenever possible, I love experimenting with creative testing approaches,
+              <b className="purple"> designing posters, user-friendly interfaces, </b> learning new tools, {" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Reading books </b> and  {" "}
+                <b className="purple">Watching movies</b>.
               </i>
             </p>
           </Col>
