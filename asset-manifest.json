@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5c06f084.css",
-    "main.js": "/static/js/main.e5ea6689.js",
+    "main.js": "/static/js/main.e50e023f.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/avatar.png": "/static/media/avatar.b2f1b8f68f31fd36860f.png",
+    "static/media/avatar.png": "/static/media/avatar.0928bbb9612599fdfab2.png",
     "static/media/CV_Adinda Aulia Balqis.pdf": "/static/media/CV_Adinda Aulia Balqis.2e3b961b4f53347c3797.pdf",
     "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/logo.png": "/static/media/logo.bad17917e1ac7dc4bf57.png",
+    "static/media/logo.png": "/static/media/logo.f3db25d56aa98d2c4dde.png",
     "static/media/go.svg": "/static/media/go.92167445712559696ed2cbe525706710.svg",
     "static/media/SQL.svg": "/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
     "static/media/Mongo.svg": "/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
@@ -43,11 +43,11 @@
     "static/media/Haskell.svg": "/static/media/Haskell.e4b7b5b34e24fee7cd7a2a1f75b9550b.svg",
     "static/media/Firebase.svg": "/static/media/Firebase.c5e643a18f060de1d39eda5908abbb5f.svg",
     "main.5c06f084.css.map": "/static/css/main.5c06f084.css.map",
-    "main.e5ea6689.js.map": "/static/js/main.e5ea6689.js.map",
+    "main.e50e023f.js.map": "/static/js/main.e50e023f.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c06f084.css",
-    "static/js/main.e5ea6689.js"
+    "static/js/main.e50e023f.js"
   ]
 }
