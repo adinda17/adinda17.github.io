@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c06f084.css",
-    "main.js": "/static/js/main.6a66cbed.js",
+    "main.css": "/static/css/main.191ebb0d.css",
+    "main.js": "/static/js/main.dd03e81f.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/ars.jpg": "/static/media/ars.8674561c44b082168ce6.jpg",
     "static/media/myskill.png": "/static/media/myskill.c746a519e2b9b3a4de0e.png",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/nuri.png": "/static/media/nuri.67b7a4a67a4a35d07965.png",
     "static/media/CV_Adinda Aulia Balqis.pdf": "/static/media/CV_Adinda Aulia Balqis.2e3b961b4f53347c3797.pdf",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/avatar.png": "/static/media/avatar.3e427fbd7ff5338764aa.png",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/f_fosfat2.png": "/static/media/f_fosfat2.9c847c07945195fa8183.png",
     "static/media/logo.png": "/static/media/logo.f3db25d56aa98d2c4dde.png",
     "static/media/go.svg": "/static/media/go.92167445712559696ed2cbe525706710.svg",
     "static/media/SQL.svg": "/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
@@ -42,12 +42,12 @@
     "static/media/MUI.svg": "/static/media/MUI.12e2df83693fe483729e8f9f76d4bee3.svg",
     "static/media/Haskell.svg": "/static/media/Haskell.e4b7b5b34e24fee7cd7a2a1f75b9550b.svg",
     "static/media/Firebase.svg": "/static/media/Firebase.c5e643a18f060de1d39eda5908abbb5f.svg",
-    "main.5c06f084.css.map": "/static/css/main.5c06f084.css.map",
-    "main.6a66cbed.js.map": "/static/js/main.6a66cbed.js.map",
+    "main.191ebb0d.css.map": "/static/css/main.191ebb0d.css.map",
+    "main.dd03e81f.js.map": "/static/js/main.dd03e81f.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c06f084.css",
-    "static/js/main.6a66cbed.js"
+    "static/css/main.191ebb0d.css",
+    "static/js/main.dd03e81f.js"
   ]
 }
