@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="QA Project: Test Plan Aplikasi Pinjam Sultan "
               description="Developed a detailed Test Plan for the Aplikasi Pinjam Sultan, a mobile app for borrowing tools and vehicles. Based on the provided Product Requirement Document (PRD) from MySkill, covering test scenarios, test cases, and quality assurance strategy to ensure reliable and smooth user experience."
               //ghLink="https://docs.google.com/document/d/11ojEreujZQk0H7GUrdM_6CYycehG8HBzwknRfUabgA0/edit?usp=sharing"
               demoLink="https://docs.google.com/document/d/11ojEreujZQk0H7GUrdM_6CYycehG8HBzwknRfUabgA0/edit?usp=sharing"
