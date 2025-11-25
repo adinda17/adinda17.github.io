@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/ars.jpg";
 import emotion from "../../Assets/Projects/nuri.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/f_fosfat2.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/myskill.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/test_plan.png";
 
 function Projects() {
   return (
@@ -37,9 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-            //  demoLink="https://blogs.soumya-jit.tech/"
+              description="Developed a detailed Test Plan for the Aplikasi Pinjam Sultan, a mobile app for borrowing tools and vehicles. Based on the provided Product Requirement Document (PRD) from MySkill, covering test scenarios, test cases, and quality assurance strategy to ensure reliable and smooth user experience."
+              //ghLink="https://docs.google.com/document/d/11ojEreujZQk0H7GUrdM_6CYycehG8HBzwknRfUabgA0/edit?usp=sharing"
+              demoLink="https://docs.google.com/document/d/11ojEreujZQk0H7GUrdM_6CYycehG8HBzwknRfUabgA0/edit?usp=sharing"
             />
           </Col>
 
@@ -47,10 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-             // demoLink="https://editor.soumya-jit.tech/"              
+              title="NPK Fertilizer Raw Material Price Forecast at PT Pupuk Sriwidjaja Palembang"
+              description="6-month BUMN internship project at PT Pupuk Sriwidjaja. Built an automated system to forecast NPK raw material prices using Python, SQL, and Selenium for monthly procurement planning."
+               demoLink="/npk-forecast"              
             />
           </Col>
 
@@ -58,10 +57,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              //demoLink="https://plant49-ai.herokuapp.com/"
+              title="Project: Eatzy Mobile Application (ARS 2019)"
+              description="Android app designed with the RUP approach to recommend food, drinks, and restaurants. Published in ARS 2019."
+          
+              demoLink="https://garuda.kemdiktisaintek.go.id/documents/detail/1723553"
             />
           </Col>
 
@@ -92,6 +91,7 @@ function Projects() {
               The final high-fidelity design focused on intuitive navigation,
               visual consistency, and responsiveness across devices."
               ghLink="https://www.behance.net/gallery/183544091/Nuri-UIUX-Project-Based-Internship-(Rakamin-Academy)"
+              pptLink="/nuri-ppt" // ini yang baru
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
