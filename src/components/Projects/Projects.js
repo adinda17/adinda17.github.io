@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/ars.jpg";
 import emotion from "../../Assets/Projects/nuri.png";
 import editor from "../../Assets/Projects/f_fosfat2.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/sanbercode.png";
 import suicide from "../../Assets/Projects/myskill.png";
 import bitsOfCode from "../../Assets/Projects/test_plan.png";
 
@@ -25,10 +25,12 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-            //  demoLink="https://chatify-49.web.app/"
+              title="Quality Assurance Testing Projects – Sanbercode Bootcamp"
+              description="This project is a collection of Quality Assurance practice projects completed during the Sanbercode Quality Assurance Bootcamp.
+              It showcases hands-on experience in manual testing, bug reporting, API testing, and automation testing, following structured QA processes and industry-relevant tools."
+              ghLink="https://github.com/adinda17/sanbercode.git"
+              linkType="github" 
+              demoLink="/qa-projects"
             />
           </Col>
 

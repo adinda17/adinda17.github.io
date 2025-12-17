@@ -7,6 +7,13 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import NPKForecast from "./components/NPKForecast";
+import QAProjects from "./components/QAProjects";
+import QAOrangeHRMManual from "./components/QA/QAOrangeHRMManual";
+import QABugReporting from "./components/QA/QABugReporting";
+import QAReqresPostman from "./components/QA/QAReqresPostman";
+import QAReqresCypress from "./components/QA/QAReqresCypress";
+import QAOrangeHRMFinal from "./components/QA/QAOrangeHRMFinal";
+//import QAPPTTemplate from "./components/QA/QAPPTTemplate";
 import NuriPpt from "./components/NuriPpt";
 import Eatzy from "./components/Eatzy";
 import Footer from "./components/Footer";
@@ -42,6 +49,13 @@ function App() {
           <Route path="/npk-forecast" element={<NPKForecast />} />
           <Route path="/eatzy" element={<Eatzy />} />
           <Route path="/nuri-ppt" element={<NuriPpt />} />
+          <Route path="/qa-projects" element={<QAProjects />} />
+          <Route path="/qa/orangehrm-manual" element={<QAOrangeHRMManual />} />
+          <Route path="/qa/bug-reporting" element={<QABugReporting />} />
+          <Route path="/qa/reqres-postman" element={<QAReqresPostman />} />
+          <Route path="/qa/reqres-cypress" element={<QAReqresCypress />} />
+          <Route path="/qa/orangehrm-final" element={<QAOrangeHRMFinal />} />
+          
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

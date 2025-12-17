@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsBehance } from "react-icons/bs";
+import { BsBehance, BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 function ProjectCards(props) {
@@ -15,13 +15,21 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
 
-        {/* GH / Behance Button */}
+        {/* Link Button (Behance / GitHub) */}
         {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsBehance /> &nbsp;
-            {props.isBlog ? "Detail" : "Behance"}
+            {props.linkType === "github" ? (
+              <>
+                <BsGithub /> &nbsp; GitHub
+              </>
+            ) : (
+              <>
+                <BsBehance /> &nbsp; Behance
+              </>
+            )}
           </Button>
         )}
+
 
         {/* Demo / Detail Button */}
         {!props.isBlog && props.demoLink && (
@@ -44,7 +52,7 @@ function ProjectCards(props) {
               className="btn btn-secondary"
               style={{ marginLeft: "10px", marginTop: "5px" }}
             >
-              View PPT
+              View Detail
             </Link>
           ) : (
             <Button
@@ -53,7 +61,7 @@ function ProjectCards(props) {
               target="_blank"
               style={{ marginLeft: "10px", marginTop: "5px" }}
             >
-              View PPT
+              View Detail
             </Button>
           )
         )}
