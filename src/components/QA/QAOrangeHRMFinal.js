@@ -106,6 +106,12 @@ function QAOrangeHRMFinal() {
               </a>
             </div>
 
+           <div style={{ marginTop: "30px" }}>
+              <a href="#/qa-projects" className="btn btn-primary">
+                Back to QA Projects
+              </a>
+            </div>
+
           </Col>
         </Row>
       </Container>

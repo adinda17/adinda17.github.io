@@ -2,7 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function QAPPTTemplate({ title, subtitle, pptLink, sheetLink, summary }) {
+function QAPPTTemplate({
+  title,
+  subtitle,
+  pptLink,
+  sheetLink,
+  summary,
+  backLink // ⬅️ tambahan
+}) {
   return (
     <Container fluid className="home-about-section">
       <Container>
@@ -64,9 +71,10 @@ function QAPPTTemplate({ title, subtitle, pptLink, sheetLink, summary }) {
               </>
             )}
 
+            {/* BACK BUTTON */}
             <div style={{ marginTop: "30px" }}>
-              <Link to="/qa-projects" className="btn btn-primary">
-                ← Back to QA Projects
+              <Link to={backLink || "/qa-projects"} className="btn btn-primary">
+                ← Back to Projects
               </Link>
             </div>
           </Col>

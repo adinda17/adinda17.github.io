@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/f_fosfat2.png";
 import chatify from "../../Assets/Projects/sanbercode.png";
 import suicide from "../../Assets/Projects/myskill.png";
 import bitsOfCode from "../../Assets/Projects/test_plan.png";
+import saucedemo from "../../Assets/Projects/saucedemo.png";
 
 function Projects() {
   return (
@@ -21,6 +22,19 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+                      <ProjectCard
+                        imgPath={saucedemo}
+                        isBlog={false}
+                        title="Automation Testing – SauceDemo Website (Katalon)"
+                        description="QA automation project using Katalon Studio to test core e-commerce flows on SauceDemo. Covers login, product selection, cart, and checkout scenarios"
+                        ghLink="https://github.com/adinda17/katalon-saucedemo-automation.git"
+                        linkType="github" 
+                        demoLink="/saucedemo-katalon"
+                      />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

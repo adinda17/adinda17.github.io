@@ -13,7 +13,7 @@ import QABugReporting from "./components/QA/QABugReporting";
 import QAReqresPostman from "./components/QA/QAReqresPostman";
 import QAReqresCypress from "./components/QA/QAReqresCypress";
 import QAOrangeHRMFinal from "./components/QA/QAOrangeHRMFinal";
-//import QAPPTTemplate from "./components/QA/QAPPTTemplate";
+import QASauceDemoKatalon from "./components/QASauceDemoKatalon";
 import NuriPpt from "./components/NuriPpt";
 import Eatzy from "./components/Eatzy";
 import Footer from "./components/Footer";
@@ -55,6 +55,8 @@ function App() {
           <Route path="/qa/reqres-postman" element={<QAReqresPostman />} />
           <Route path="/qa/reqres-cypress" element={<QAReqresCypress />} />
           <Route path="/qa/orangehrm-final" element={<QAOrangeHRMFinal />} />
+          <Route path="/saucedemo-katalon" element={<QASauceDemoKatalon />} />
+
           
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

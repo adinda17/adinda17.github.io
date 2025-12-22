@@ -106,6 +106,11 @@ function QAProjects() {
             </Card>
           </Col>
 
+        <div style={{ marginTop: "30px" }}>
+              <a href="#/project" className="btn btn-primary">
+                Back to Projects
+              </a>
+            </div>
 
         </Row>
       </Container>
