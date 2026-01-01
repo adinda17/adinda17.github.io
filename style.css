@@ -759,3 +759,15 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.resume-section {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.resume {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  overflow: visible !important;
+}
