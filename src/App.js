@@ -14,6 +14,7 @@ import QAReqresPostman from "./components/QA/QAReqresPostman";
 import QAReqresCypress from "./components/QA/QAReqresCypress";
 import QAOrangeHRMFinal from "./components/QA/QAOrangeHRMFinal";
 import QASauceDemoKatalon from "./components/QASauceDemoKatalon";
+import rakamin from "./components/rakamin";
 import NuriPpt from "./components/NuriPpt";
 import Eatzy from "./components/Eatzy";
 import Footer from "./components/Footer";

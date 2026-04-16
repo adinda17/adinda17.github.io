@@ -6,8 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Teamwork",
-          "Creative",
+          "Team Collaboration",
+          "Creative Mindset",
           "Analytical Thinking",
           "Problem Solving",
         ],
