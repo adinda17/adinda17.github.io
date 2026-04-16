@@ -33,7 +33,7 @@ function Projects() {
                         description="Klinikgo Health System Analyst Project-Based Internship Program by Rakamin Academy"
                         //ghLink="https://github.com/adinda17/katalon-saucedemo-automation.git"
                         linkType="github" 
-                        demoLink="/rakamin"
+                        demoLink="/raka-min"
                       />
           </Col>
 

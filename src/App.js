@@ -57,7 +57,7 @@ function App() {
           <Route path="/qa/reqres-cypress" element={<QAReqresCypress />} />
           <Route path="/qa/orangehrm-final" element={<QAOrangeHRMFinal />} />
           <Route path="/saucedemo-katalon" element={<QASauceDemoKatalon />} />
-          <Route path="/rakamin" element={<rakamin />} />
+          <Route path="/raka-min" element={<rakamin />} />
           
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
