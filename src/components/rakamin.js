@@ -1,7 +1,7 @@
 import React from "react";
 import QAPPTTemplate from "./QA/QAPPTTemplate";
 
-function rakamin() {
+function Rakamin() {
   return (
     <QAPPTTemplate
       title="KlinikGo Health System Analysis"
@@ -60,4 +60,4 @@ summary={
   );
 }
 
-export default rakamin;
+export default Rakamin;

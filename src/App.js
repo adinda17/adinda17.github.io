@@ -14,7 +14,7 @@ import QAReqresPostman from "./components/QA/QAReqresPostman";
 import QAReqresCypress from "./components/QA/QAReqresCypress";
 import QAOrangeHRMFinal from "./components/QA/QAOrangeHRMFinal";
 import QASauceDemoKatalon from "./components/QASauceDemoKatalon";
-import rakamin from "./components/rakamin";
+import Rakamin from "./components/Rakamin";
 import NuriPpt from "./components/NuriPpt";
 import Eatzy from "./components/Eatzy";
 import Footer from "./components/Footer";
@@ -57,7 +57,7 @@ function App() {
           <Route path="/qa/reqres-cypress" element={<QAReqresCypress />} />
           <Route path="/qa/orangehrm-final" element={<QAOrangeHRMFinal />} />
           <Route path="/saucedemo-katalon" element={<QASauceDemoKatalon />} />
-          <Route path="/raka-min" element={<rakamin />} />
+          <Route path="/rakamin" element={<Rakamin />} />
           
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
