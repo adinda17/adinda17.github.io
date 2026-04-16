@@ -13,40 +13,44 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Systems Information graduate with diverse interests in technology, design, and quality assurance.
-              Currently working in Visual Communication Design. 
-              I have Familiar with various concept and skills related to Python, SQL, and UI/UX design.
-              I am particularly drawn to quality assurance, combining analytical dan creative thinking with attention to detail.
-              I thrive in multidisciplinary environments and am always eager to learn new skills and explore emerging technologies.
-              <br />
-              <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  Python, C++, SQL, Figma, Canva, UML, ERD, and basic web development (HTML, CSS, JavaScript).{" "}
-                </b>
-              </i>
-              — and I enjoy bridging creativity and functionality.
-              <br />
-              <br />
-              My key areas of interest include
-              <i>
-                <b className="purple">
-                  {" "}
-                  Software testing, Visual Communication Design, data analysis, UI/UX design,{" "}
-                </b>
-              </i>
-              and exploring creative ways to improve testing processes.
-              <br />
-              <br />
-              Whenever possible, I love experimenting with creative testing approaches,
-              <b className="purple"> designing posters, user-friendly interfaces, </b> learning new tools, {" "}
-              <i>
-                <b className="purple">Reading books </b> and  {" "}
-                <b className="purple">Watching movies</b>.
-              </i>
-            </p>
+  I’m an Information Systems graduate with experience across System Analysis, Quality Assurance, Data Analysis, UI/UX, and Visual Design through professional work and internships.
+  <br />
+  <br />
+  I’ve explored the full Software Development Life Cycle (SDLC), from requirement analysis, process mapping, and system modeling using
+  <i>
+    <b className="purple">
+      {" "}
+      Flowcharts, Use Case Diagrams, DFD, Activity Diagrams, Sequence Diagrams.{" "}
+    </b>
+  </i>
+  to testing and validation processes.
+  <br />
+  <br />
+  I also have hands-on experience in Quality Assurance, including manual and automation testing using
+  <i>
+    <b className="purple">
+      {" "}
+      Cypress, Katalon, Postman, and SQL{" "}
+    </b>
+  </i>
+  for test execution, API testing, and data validation.
+  <br />
+  <br />
+  One of my key experiences is the
+  <b className="purple">
+    {" "}
+    KlinikGo Health System Analyst Project-Based Internship{" "}
+  </b>
+  , where I designed an end-to-end online patient registration system, including queue management, BPJS flow, and automated schedule change notifications.
+  <br />
+  <br />
+  I also have experience in Data Analysis as a
+  <b className="purple"> Data Analyst Intern at Pupuk Sriwidjaja </b>
+  for 6 months, where I worked on analyzing and predicting raw material price trends to support decision-making and business planning.
+  <br />
+  <br />
+  In addition, my experience in Visual Communication Design (F&B marketing) strengthened my ability to understand user behavior, structure content flows, and translate business needs into clear and organized visual systems, which are highly relevant for a System Analyst role.
+</p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/sanbercode.png";
 import suicide from "../../Assets/Projects/myskill.png";
 import bitsOfCode from "../../Assets/Projects/test_plan.png";
 import saucedemo from "../../Assets/Projects/saucedemo.png";
+import rakamin from "../../Assets/Projects/rakamin.png";
 
 function Projects() {
   return (
@@ -22,6 +23,19 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+           <Col md={4} className="project-card">
+                      <ProjectCard
+                        imgPath={rakamin}
+                        isBlog={false}
+                        title="Analysis & Design of KlinikGo Online Registration System"
+                        description="Klinikgo Health System Analyst Project-Based Internship Program by Rakamin Academy"
+                        //ghLink="https://github.com/adinda17/katalon-saucedemo-automation.git"
+                        linkType="github" 
+                        demoLink="/rakamin"
+                      />
+          </Col>
 
           <Col md={4} className="project-card">
                       <ProjectCard
