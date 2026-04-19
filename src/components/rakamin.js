@@ -6,7 +6,7 @@ function Rakamin() {
     <QAPPTTemplate
       title="KlinikGo Health System Analysis"
 subtitle="Project-Based Internship | Rakamin Academy"
-pptLink={`${process.env.PUBLIC_URL}/RakaminPpt.pdf`}
+pptLink="https://adinda17.github.io/RakaminPpt.pdf"
 backLink="/project"
 summary={
   <>
