@@ -6,7 +6,7 @@ function Rakamin() {
     <QAPPTTemplate
       title="KlinikGo Health System Analysis"
 subtitle="Project-Based Internship | Rakamin Academy"
-pptLink="https://view.officeapps.live.com/op/embed.aspx?src=https://drive.google.com/uc?export=download&id=1b6v0nxZp9Ts4DfPHh3Zn1AqlBbOFOAze"
+pptLink="https://www.dropbox.com/scl/fi/ekhl6bw3it746hoi75liv/Final-Project-Rakamin-FIX.pdf?raw=1"
 backLink="/project"
 summary={
   <>
