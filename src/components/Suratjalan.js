@@ -1,6 +1,6 @@
 import React from "react";
 import QAPPTTemplate from "./QA/QAPPTTemplate";
-import demoVideo from "../../Assets/Projects/suratjalan-demo.gif";
+import demoGif from "../../Assets/Projects/suratjalan-demo.gif";
 // Kalau pakai video, ganti baris di atas jadi:
 // import demoVideo from "../../Assets/Projects/suratjalan-demo.mp4";
 
