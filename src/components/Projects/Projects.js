@@ -32,7 +32,7 @@ function Projects() {
 
 <Col md={4} className="project-card">
   <ProjectCard
-    imgPath={suratJalanCover}
+    imgPath={suratjalan}
     isBlog={false}
     title="SuratJalan Digital: Baropi Group Delivery Note System"
     description="An end-to-end Information Systems project redesigning the paper-based
