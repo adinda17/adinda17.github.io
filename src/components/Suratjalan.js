@@ -1,15 +1,14 @@
 import React from "react";
 import QAPPTTemplate from "./QA/QAPPTTemplate";
-import demoGif from "../../Assets/Projects/suratjalan-demo.gif";
-// Kalau pakai video, ganti baris di atas jadi:
-// import demoVideo from "../../Assets/Projects/suratjalan-demo.mp4";
+// File gif ini ada di folder public/Assets/Projects/, jadi TIDAK di-import,
+// cukup direferensikan langsung sebagai path string di bawah.
 
 function Suratjalan() {
   return (
     <QAPPTTemplate
       title="SuratJalan Digital: Baropi Group Delivery Note System"
       subtitle="Independent Project | Information Systems Analysis & Design"
-      pptLink="https://adinda17.github.io/SuratJalanDigitalPpt.pdf"
+      pptLink="https://docs.google.com/presentation/d/e/2PACX-1vRQ0v9W3Wk6LbcilwUaSVoHd3-RdNvCE76rmnHVTKfu3lGLb_tLDvESOu7wXZz0O5UCw5-13j5VpwHS/pubembed?start=false&loop=false&delayms=3000"
       backLink="/project"
       summary={
         <>
@@ -27,17 +26,11 @@ function Suratjalan() {
           </p>
 
           <div style={{ margin: "24px 0" }}>
-             <img
-              src={demoGif}
+            <img
+              src="/Assets/Projects/suratjalan-demo.gif"
               alt="SuratJalan Digital system demo"
               style={{ width: "100%", borderRadius: "8px" }}
             />
-
-            {/* Kalau pakai video, ganti <img> di atas jadi:
-            <video autoPlay loop muted playsInline style={{ width: "100%", borderRadius: "8px" }}>
-              <source src={demoVideo} type="video/mp4" />
-            </video>
-            */}
           </div>
 
           <p>
